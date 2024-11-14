@@ -3,11 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Balises Open Graph -->
+    <meta
+      property="og:title"
+      content="Photographe professionnelle • Nina Carducci"
+    />
+    <meta
+      property="og:description"
+      content="Photographe passionnée, je capture vos moments précieux avec un regard unique. Contactez-moi pour des séances personnalisées."
+    />
+    <meta property="og:image" content="assets/images/meta_capture.webp" />
+    <meta
+      property="og:url"
+      content="https://quentindch.github.io/Nina-Carducci-opc-p8/"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="Nina Carducci - Photographe" />
+
+    <!-- Balises Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Photographe professionnelle • Nina Carducci"
+    />
+    <meta
+      name="twitter:description"
+      content="Photographe passionnée, je capture vos moments précieux avec un regard unique. Contactez-moi pour des séances personnalisées."
+    />
+    <meta name="twitter:image" content="assets/images/meta_capture_tw.webp" />
+
+    <!-- meta description moteur de recherche -->
     <meta
       name="description"
       content="Photographe passionnée, je capture vos moments précieux avec un regard unique. Contactez-moi pour des séances photos personnalisées."
     />
-    <title>Photographe Passionnée - Nina Carducci</title>
+    <title>Portraits & Reportages photos • Photographe • Nina Carducci</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -33,9 +65,13 @@
   <body>
     <header class="top-header">
       <h1 class="name">
-        <a href="/" title="Retour à l'accueil du site Nina Carducci"
-          >Nina Carducci</a
+        <a
+          href="/"
+          title="Retour à l'accueil du site Nina Carducci"
+          aria-label="Retour à l'accueil de Nina Carducci"
         >
+          Nina Carducci
+        </a>
       </h1>
       <nav class="nav" aria-label="Navigation principale">
         <ul>
@@ -159,7 +195,7 @@
           </p>
         </div>
       </section>
-      <section id="gallery">
+      <section id="gallery" aria-label="Portfolio de photos">
         <h2 class="title">Portfolio</h2>
         <div class="container py-3">
           <div class="gallery" style="display: none">
@@ -243,7 +279,7 @@
           </figure>
         </div>
       </section>
-      <section id="services">
+      <section id="services" aria-label="Mes services photographiques">
         <h2 class="title">Mes services</h2>
         <div class="container">
           <article class="service">
@@ -302,14 +338,14 @@
         </figure>
       </div>
     </main>
-    <footer id="contact">
+    <footer id="contact" aria-label="Contact et demande de devis">
       <div class="container">
         <div class="form-container">
           <h2>Une question ? Une demande de devis ?</h2>
           <p>
             N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures
           </p>
-          <form action="" method="post">
+          <form method="post">
             <label for="nom">Nom</label>
             <input type="text" name="nom" id="nom" required />
 
