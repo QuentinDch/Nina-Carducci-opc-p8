@@ -51,15 +51,21 @@
     <!-- Balises JSON-LD -->
     <script type="application/ld+json">
       {
-        "@context": "https://schema.org",
         "@type": "Photograph",
         "name": "Nina Carducci",
         "description": "Photographe professionnelle capturant vos moments précieux avec un regard unique.",
         "url": "https://quentindch.github.io/Nina-Carducci-opc-p8/",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Île-de-France",
-          "addressCountry": "FR"
+        "provider": {
+          "@type": "Organization",
+          "name": "Nina Carducci Photography",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Île-de-France",
+            "addressCountry": {
+              "@type": "Country",
+              "name": "FR"
+            }
+          }
         }
       }
     </script>
