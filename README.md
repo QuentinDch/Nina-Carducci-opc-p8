@@ -1,8 +1,9 @@
 # nina-carducci-project
 
-huitième projet du parcours **"Intégrateur web"** chez OpenClassroom. <br> L'objectif est d'Optimisez le référencement d'un site de photographe.
+Huitième projet du parcours **"Intégrateur web"** chez OpenClassroom. <br> L'objectif est d'Optimisez le référencement d'un site de photographe.
 
-![Image de présentation du projet]
+![Image de présentation du projet](https://github.com/user-attachments/assets/58f259f6-39df-4181-9f50-6ca40b5a355a)
+
 
 ## Objectifs du Projet
 
@@ -25,7 +26,7 @@ huitième projet du parcours **"Intégrateur web"** chez OpenClassroom. <br> L'o
 1. **Cloner le Dépôt** :
 
 ```bash
-   git clone <URL-du-repository>
+   git clone https://github.com/QuentinDch/Nina-Carducci-opc-p8.git
 
 ```
 
