@@ -63,4 +63,4 @@ Après optimisation :
 - Résolution des problèmes d'accessibilité.
 
   Le lien du site après intervention :
-  Suivez ce lien [](https://nina-carducci-opc-p8.vercel.app/)
+  [Suivez ce lien](https://nina-carducci-opc-p8.vercel.app/)
