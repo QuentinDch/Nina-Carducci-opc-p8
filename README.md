@@ -4,7 +4,6 @@ Huitième projet du parcours **"Intégrateur web"** chez OpenClassroom. <br> L'o
 
 ![Image de présentation du projet](https://github.com/user-attachments/assets/58f259f6-39df-4181-9f50-6ca40b5a355a)
 
-
 ## Objectifs du Projet
 
 - **Analyser et identifier les problèmes de chargement et de référencement** : Utilisation des outils comme Lighthouse et Wave pour évaluer la performance, le SEO et l'accessibilité du site. Ces outils ont permis de repérer les points faibles du site en termes de vitesse de chargement, d'optimisation SEO et d'accessibilité.
@@ -62,3 +61,6 @@ Après optimisation :
 - Améliorations des performances (score Lighthouse supérieur ou égal à 90%).
 - Modifications du SEO avec un score amélioré.
 - Résolution des problèmes d'accessibilité.
+
+  Le lien du site après intervention :
+  Suivez ce lien [](https://nina-carducci-opc-p8.vercel.app/)
